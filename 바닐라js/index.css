@@ -1,0 +1,54 @@
+body {
+  background-color: blanchedalmond;
+}
+.js-title {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+.js-weather {
+  color: white;
+}
+.js-form {
+  margin-top: 50px;
+  text-align: center;
+}
+.js-toDoForm {
+  margin-top: 20px;
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+}
+
+.clicked {
+  color: gray;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
